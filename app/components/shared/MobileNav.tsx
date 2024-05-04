@@ -10,7 +10,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { navLinks } from "@/app/constants";
+import { navLinks } from "@/constants";
 import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
 

@@ -1,5 +1,5 @@
 "use client";
-import { navLinks } from "@/app/constants";
+import { navLinks } from "@/constants";
 import { Button } from "@/components/ui/button";
 import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import Image from "next/image";
