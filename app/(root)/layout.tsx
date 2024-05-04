@@ -1,5 +1,6 @@
 import React from "react";
 import Sidebar from "../components/shared/Sidebar";
+import MobileNav from "../components/shared/MobileNav";
 
 const layout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -7,6 +8,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
       {/* <Sidebar /> for desktop view*/}
       <Sidebar />
       {/* <MobileNvar /> for mobile view*/}
+      <MobileNav />
       <div className="root-container">
         <div className="wrapper">{children}</div>
       </div>

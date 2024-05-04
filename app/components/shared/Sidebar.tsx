@@ -85,7 +85,7 @@ const Sidebar = () => {
             </ul>
           </SignedIn>
 
-          {/* when user sign out show below <SignedOut /> */}
+          {/* when user sign out show login process */}
           <SignedOut>
             <Button asChild className="button bg-purple-gradient bg-cover">
               <Link href={"/"}>Login</Link>
