@@ -24,7 +24,7 @@ const Sidebar = () => {
 
         {/* navliks are here, imported object from constant */}
         <nav className="sidebar-nav">
-          {/* when user sign in,show <SignedIn /> component  */}
+          {/* when user sign in,show components in sidebar  */}
           <SignedIn>
             <ul className="sidebar-nav_elements">
               {navLinks.slice(0, 6).map((link) => {
@@ -88,7 +88,7 @@ const Sidebar = () => {
           {/* when user sign out show login process */}
           <SignedOut>
             <Button asChild className="button bg-purple-gradient bg-cover">
-              <Link href={"/"}>Login</Link>
+              <Link href={"/sign-in"}>Login</Link>
             </Button>
           </SignedOut>
         </nav>
