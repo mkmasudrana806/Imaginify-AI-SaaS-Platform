@@ -1,3 +1,4 @@
+// nav links
 export const navLinks = [
   {
     label: "Home",
@@ -41,6 +42,7 @@ export const navLinks = [
   },
 ];
 
+// plans
 export const plans = [
   {
     _id: 1,
@@ -119,6 +121,7 @@ export const plans = [
   },
 ];
 
+// transformation types like remove, bgRemove, objectRemove, generateImage
 export const transformationTypes = {
   restore: {
     type: "restore",
@@ -161,6 +164,7 @@ export const transformationTypes = {
   },
 };
 
+// aspect ratio
 export const aspectRatioOptions = {
   "1:1": {
     aspectRatio: "1:1",
@@ -182,6 +186,7 @@ export const aspectRatioOptions = {
   },
 };
 
+// default values for prompt
 export const defaultValues = {
   title: "",
   aspectRatio: "",
@@ -190,4 +195,5 @@ export const defaultValues = {
   publicId: "",
 };
 
+// default credit fee
 export const creditFee = -1;

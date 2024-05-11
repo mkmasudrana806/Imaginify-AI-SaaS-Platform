@@ -1,9 +1,11 @@
 import React from "react";
 
 const TransformationsPage = ({ params }: { params: string }) => {
-  return <div>TransformationsPage</div>;
+  return <div>Transformations main Page</div>;
 };
 
 export default TransformationsPage;
 
-// localhost:3000/transformations/[id]
+// localhost:3000/transformations/add/[type].html
+// localhost:3000/transformations/add/[type].html
+// localhost:3000/transformations/add/[type].html
